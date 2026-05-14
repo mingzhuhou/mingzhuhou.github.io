@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Personal Website"
+  title: "Hello"
   navbar:
     left:
       - href: index.qmd
@@ -12,7 +13,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - cerelean
       - brand
     css: styles.css
     toc: true
